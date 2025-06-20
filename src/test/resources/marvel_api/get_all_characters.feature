@@ -1,9 +1,7 @@
 @MarvelApi @get_all_characters @Agente2 @E2
 Feature: MarvelApi: Obtener todos los Personajes
-
   Background:
-    #Given url marvelApiBaseUrl
-    Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/ngamboag/api'
+    Given url marvelApiBaseUrl
     And path '/characters'
 
   Scenario: Obtener todos los personajes exitosamente (lista con al menos uno)

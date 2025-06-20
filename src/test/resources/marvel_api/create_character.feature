@@ -1,9 +1,8 @@
 @MarvelApi @create_character @Agente2 @E2
 Feature: MarvelApi: Crear Personaje
-
   Background:
   # La URL base para la API de Marvel se define en karate-config.js
-    Given url 'http://bp-se-test-cabcd9b246a5.herokuapp.com/ngamboag/api'
+    Given url marvelApiBaseUrl
     And path '/characters'
     And header Content-Type = 'application/json'
 

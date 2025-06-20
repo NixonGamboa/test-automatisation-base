@@ -1,4 +1,4 @@
-function() {
+function fn() {
 
   var env = java.lang.System.getenv('env');
   karate.log('karate.env system property was:', env);
@@ -11,8 +11,7 @@ function() {
     username: 'ngamboa' // Usuario dinámico para las rutas de la API
   }
 
-config.marvelApiBaseUrl = config.baseUrl + '/' + config.username + '/api';
+  config.marvelApiBaseUrl = config.baseUrl + '/' + config.username + '/api';
 
-
-return config;
+  return config;
 }
