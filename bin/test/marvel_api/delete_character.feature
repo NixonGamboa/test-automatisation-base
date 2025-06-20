@@ -1,4 +1,4 @@
-@MarvelApi @delete_character
+@MarvelApi @delete_character @Agente2 @E2
 Feature: MarvelApi: Eliminar Personaje
 
   Background:

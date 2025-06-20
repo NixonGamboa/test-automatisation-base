@@ -11,7 +11,6 @@ function() {
     username: 'ngamboa' // Usuario dinámico para las rutas de la API
   }
 
-// Combina la URL base con el username para crear la URL raíz de la API
 config.marvelApiBaseUrl = config.baseUrl + '/' + config.username + '/api';
 
 

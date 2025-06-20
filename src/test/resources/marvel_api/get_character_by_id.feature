@@ -1,9 +1,9 @@
-@MarvelApi @get_character_by_id
+@MarvelApi @get_character_by_id @Agente2 @E2
 Feature: MarvelApi: Obtener Personaje por ID
 
   Background:
     Given url marvelApiBaseUrl
-    And header Content-Type = 'application/json' // Aunque sea GET, a veces se incluyen
+    And header Content-Type = 'application/json'
 
   Scenario: Obtener personaje por ID exitosamente
 

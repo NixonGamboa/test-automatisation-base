@@ -1,4 +1,4 @@
-@MarvelApi @update_character
+@MarvelApi @update_character @Agente2 @E2
 Feature: MarvelApi: Actualizar Personaje
 
   Background:
