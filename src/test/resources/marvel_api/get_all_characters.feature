@@ -6,7 +6,7 @@ Feature: MarvelApi: Obtener todos los Personajes
 
   Scenario: Obtener todos los personajes exitosamente (lista con al menos uno)
   #Precondición: Aseguramos que haya al menos un personaje para obtener
-    * def createCharacter = call read('create_character.feature@Crear personaje exitosamente')
+    * def createCharacter = call read('create_character.feature@Crear_personaje_exitosamente')
     Then print 'Personaje creado con ID: ' + createCharacter.error
     * def createdId = createCharacter.response.id
 

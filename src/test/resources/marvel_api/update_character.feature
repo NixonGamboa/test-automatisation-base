@@ -8,7 +8,7 @@ Feature: MarvelApi: Actualizar Personaje
   Scenario: Actualizar personaje exitosamente
 
   # Precondición: Crear un personaje para actualizar
-    * def createCharacter = call read('create_character.feature@Crear personaje exitosamente')
+    * def createCharacter = call read('create_character.feature@Crear_personaje_exitosamente')
     * def characterId = createCharacter.response.id
     * def initialName = createCharacter.response.name
 

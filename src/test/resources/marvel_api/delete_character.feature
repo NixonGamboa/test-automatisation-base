@@ -7,7 +7,7 @@ Feature: MarvelApi: Eliminar Personaje
   Scenario: Eliminar personaje exitosamente
 
   # Precondición: Crear un personaje para eliminar
-    * def createCharacter = call read('create_character.feature@Crear personaje exitosamente')
+    * def createCharacter = call read('create_character.feature@Crear_personaje_exitosamente')
     * def characterId = createCharacter.response.id
 
     Given path '/characters/' + characterId

@@ -6,6 +6,7 @@ Feature: MarvelApi: Crear Personaje
     And path '/characters'
     And header Content-Type = 'application/json'
 
+  @Crear_personaje_exitosamente
   Scenario: Crear personaje exitosamente
     * def requestBody = read('classpath:marvel_api/data/create_character_body.json')
     # Modificar el nombre para asegurar que sea único para cada ejecución
